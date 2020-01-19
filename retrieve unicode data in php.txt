@@ -1,0 +1,8 @@
+$conn = mysqli_connect("localhost", "root", "", "hack");
+//check connection
+mysqli_query($conn,"SET CHARACTER SET 'utf8'");
+mysqli_query($conn,"SET SESSION collation_connection ='utf8_unicode_ci'");
+//this two lines for retrieve unicode data from database in php.
+
+
+ 
